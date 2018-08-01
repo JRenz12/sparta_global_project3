@@ -1,7 +1,7 @@
 {
   "variables": {
-    "aws_access_key": AWS_ACCESS_KEY_ID,
-    "aws_secret_key": AWS_SECRET_ACCESS_KEY
+    "aws_access_key": "",
+    "aws_secret_key": ""
   },
   "builders": [{
     "type": "amazon-ebs",
@@ -19,7 +19,7 @@
     },
     "instance_type": "t2.micro",
     "ssh_username": "ubuntu",
-    "ami_name": "jamaines-pipeline-{{timestamp}}"
+    "ami_name": "jamaine-pipeline-{{timestamp}}"
   }],
   "provisioners": [
     {
