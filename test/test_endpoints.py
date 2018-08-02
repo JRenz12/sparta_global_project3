@@ -6,7 +6,7 @@ from app import app
 with Betamax.configure() as config:
     config.cassette_library_dir = 'test/fixtures'
 
-test_auth_token = 'KA.eyJ2ZXJzaW9uIjoyLCJpZCI6Iis2N0luQmxBVCsyS012aWpGcmYzc0E9PSIsImV4cGlyZXNfYXQiOjE1MzU1NDc1MjEsInBpcGVsaW5lX2tleV9pZCI6Ik1RPT0iLCJwaXBlbGluZV9pZCI6MX0.ra5oQUB8J3rKge8aXJMZdSf3N-2vuyyTJBw8vGAqeSI'
+test_auth_token = 'MLth87eHvSAaCQ1vn7jTd0xA9Kapo5'
 
 
 class TestCases(unittest.TestCase):
